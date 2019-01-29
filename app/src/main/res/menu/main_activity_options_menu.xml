@@ -37,4 +37,16 @@
         </menu>
     </item>
 
+    <group android:checkableBehavior="all">
+        <item
+            android:checkable="true"
+            android:title="Push Complete"/>
+        <item
+            android:checkable="true"
+            android:title="Pull Complete"/>
+        <item
+            android:checkable="true"
+            android:title="Legs Complete"/>
+    </group>
+
 </menu>
