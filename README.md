@@ -49,3 +49,33 @@ There are a few additional features which you can include in order to improve yo
 
 * Polish, polish, polish. Take this time to make your menus and app look awesome. Once the menus are done, build a custom theme and app icons for it as well.
 * Start implementing some of the features from your design. First step, instead of just changing the text, build multiple stock fragments and swap them out with the menu selection. Once that is done, you can start adding implementation to those fragments.
+
+
+# App Description
+
+## Overview
+    The app will monitor noise levels of the environment and act on if noise levels get above a threshold.  Target audience would be for parents to easily enforce a time-out for kids.
+
+### Individual Activities
+ * Main Activity
+
+    >Initial screen would allow user to select a premade configuration (either a stock on or one created by user earlier) or create a new configuration.
+
+* NoiseMonitor activity.
+
+    >Selection of an existing configuration would open a NoiseMonitor activity.  App would    listen to the noise levels of the environment and provide visiual and possible audible feedback depending on configuration.  A countdown timer may also be displayed if confguration was set up to use that.
+
+*   NoiseMonitorConfig
+    >Selecting a new configuration would open this activity.  Selecting an existing one via long=press would open the same activity with the configuration pre-populated.  User would be able to set whether a countdown timer would be used.  If used, the length of time would be able to be set as well as options for notification when time is up.  Another option would allow timer to automatically reset when noise levels get too high.
+
+*   Settings Activity
+    >This activity would allow user set/change global settings.  One setting would be whether phone is pinned to that app and locked to that activity on start of NoiseMonitor Activity.  Notification settings like selection of sound when timer is complete or noise has exceeded tht threshold would be set. Stretch goal would be to add notification to another device either via text/email/messaging app, or through another instance of the app running on the 2nd device.
+    
+### Navigation Drawer
+*   Main Menu: Allow user to select whether app is locked a NoiseMonitor Activity.  Settings for it would be in the Setting activity.  Allow user to enter settings activity.  Allow user to select a night mode.
+*   Secondary Menu: Not sure if a secondary menu will be needed.
+*   Header: Display an icon, name of selected configuration.  Use one of the colors in the color resource file as the background.
+
+#### Action Bar Menu
+*   As action, add new configuration depending on which activity is in view.
+*   Option to view a log of activity.
