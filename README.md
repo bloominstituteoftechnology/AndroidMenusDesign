@@ -10,9 +10,9 @@ The following pieces are required, I recommend you build them in order.
 ### App Design
 You'll need to write up a simple design for your app with structure example:
 
->High Level Description:
->The Light Controller app will allow users to create custom light settings and store them persistently. It will also allow them to select from a list of previously used settings. Finally the user will be able to configure multiple light controllers and select between them in the settings selection page.
-
+>High Level Description:  
+>The Light Controller app will allow users to create custom light settings and store them persistently. It will also allow them to select from a list of previously used settings. Finally the user will be able to configure multiple light controllers and select between them in the settings selection page.  
+>
 >Individual Activities:
 >- Light Selecting (which also allows users to select the controller)
 >	- Select from a list of previous light configurations
@@ -22,10 +22,10 @@ You'll need to write up a simple design for your app with structure example:
 >- Controller Configutation
 >	- Create or Edit controller configurations
 >
->Navigation Drawer:
->Main Menu: Allow user to select which activity or fragment to view.
->Secondary Menu: Allow user to toggle night mode for the app
->Header: Show the user the name of the controller which is selected, show them the name of the active pattern, and have the background color be the base color of the configuration.
+>Navigation Drawer:  
+>Main Menu: Allow user to select which activity or fragment to view.  
+>Secondary Menu: Allow user to toggle night mode for the app  
+>Header: Show the user the name of the controller which is selected, show them the name of the active pattern, and have the background color be the base color of the configuration.  
 >
 >Action Bar Menu:
 >- As action, turn off lights
