@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_Menus_Design</string>
+    <string name="push_choice_text">Push</string>
+    <string name="push_benchpress_text">Benchpress Completed</string>
+    <string name="pull_choice_text">Pull</string>
+    <string name="pull_deadlift_text">Deadlift Completed</string>
+    <string name="legs_choice_text">Legs</string>
+    <string name="legs_squat_text">Squat Completed</string>
+</resources>

@@ -49,3 +49,26 @@ There are a few additional features which you can include in order to improve yo
 
 * Polish, polish, polish. Take this time to make your menus and app look awesome. Once the menus are done, build a custom theme and app icons for it as well.
 * Start implementing some of the features from your design. First step, instead of just changing the text, build multiple stock fragments and swap them out with the menu selection. Once that is done, you can start adding implementation to those fragments.
+
+## My App - Fitness App 
+
+>High Level Description:
+>This fitness app will be using Coolcicada's PPL routine found here(https://forum.bodybuilding.com/showthread.php?t=149807833). This app will keep track of weights and suggest potential weight increases after a set period of time. SQLite Database will be used for data persistance. 
+
+>Individual Activities:
+>- List of Workout Days: Push, Pull, Legs
+>	- Gives an overview of what weights were changed from the last session. 
+>	- Shows which area was worked on so the user doesn't have to remember what they did last. 
+>- Detailed Workout day activity
+>	- Shows the current weight of the exercise and the past weights with a dropdown. 
+>	- Color indication showing what weight was increased on the last session. Sets a cooldown period on when to increase again.  
+>	- Option to self set weight and bypass suggestions.  
+>- Choice of exercise to improve upon
+>	- A master list of excercises in the program that the user can choose from and select what they most want to work on.
+> - Selection will be reflected in the daily workout. 
+>- Timer 
+> - Not sure if I should make it for the session of rest periods betwenen reps.
+>Navigation Drawer:
+>Main Menu: Allow user to select which activity or fragment to view.
+>Secondary Menu: Allow user to toggle night mode for the app or just delete data all together or even share it with a friend. 
+
