@@ -29,7 +29,7 @@ public class TaggedAnimalsFragment extends Fragment {
 
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
+            mListener.onTaggedAnimalsFragmentInteraction(uri);
         }
     }
 
@@ -51,6 +51,6 @@ public class TaggedAnimalsFragment extends Fragment {
     }
 
     public interface OnFragmentInteractionListener {
-        void onFragmentInteraction(Uri uri);
+        void onTaggedAnimalsFragmentInteraction(Uri uri);
     }
 }

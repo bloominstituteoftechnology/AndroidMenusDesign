@@ -29,7 +29,7 @@ public class SheltersListFragment extends Fragment {
 
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
+            mListener.onSheltersListFragmentInteraction(uri);
         }
     }
 
@@ -51,6 +51,6 @@ public class SheltersListFragment extends Fragment {
     }
 
     public interface OnFragmentInteractionListener {
-        void onFragmentInteraction(Uri uri);
+        void onSheltersListFragmentInteraction(Uri uri);
     }
 }

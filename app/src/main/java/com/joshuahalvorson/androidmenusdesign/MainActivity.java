@@ -1,5 +1,6 @@
 package com.joshuahalvorson.androidmenusdesign;
 
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -10,10 +11,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements AnimalsListFragment.OnFragmentInteractionListener,
+SheltersListFragment.OnFragmentInteractionListener, TaggedAnimalsFragment.OnFragmentInteractionListener{
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -61,15 +64,57 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                Toast.makeText(getApplicationContext(), menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                 menuItem.setChecked(true);
-                TextView content = findViewById(R.id.content);
-                content.setText(menuItem.getTitle().toString());
+
+                //TextView content = findViewById(R.id.content);
+                //content.setText(menuItem.getTitle().toString());
+                switch (menuItem.getItemId()){
+                    case  R.id.nav_activity_one:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.fragment_container, new AnimalsListFragment())
+                                .addToBackStack(null)
+                                .commit();
+                        break;
+                    case  R.id.nav_activity_two:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.fragment_container, new SheltersListFragment())
+                                .addToBackStack(null)
+                                .commit();
+                        break;
+                    case  R.id.nav_activity_three:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.fragment_container, new TaggedAnimalsFragment())
+                                .addToBackStack(null)
+                                .commit();
+                        break;
+                }
+
+
                 drawerLayout.closeDrawers();
                 return true;
             }
         });
 
+
+    }
+
+
+    @Override
+    public void onAnimalsListFragmentInteraction(Uri uri) {
+
+    }
+
+    @Override
+    public void onSheltersListFragmentInteraction(Uri uri) {
+
+    }
+
+    @Override
+    public void onTaggedAnimalsFragmentInteraction(Uri uri) {
 
     }
 }
