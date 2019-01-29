@@ -10,30 +10,30 @@ The following pieces are required, I recommend you build them in order.
 ### App Design
 You'll need to write up a simple design for your app with structure example:
 
-```
-High Level Description:
-The Light Controller app will allow users to create custom light settings and store them persistently. It will also allow them to select from a list of previously used settings. Finally the user will be able to configure multiple light controllers and select between them in the settings selection page.
+>High Level Description:
+>The Light Controller app will allow users to create custom light settings and store them persistently. It will also allow them to select from a list of previously used settings. Finally the user will be able to configure multiple light controllers and select between them in the settings selection page.
 
-Individual Activities:
-- Light Selecting (which also allows users to select the controller)
-	- Select from a list of previous light configurations
-	- Shows number of times each configuration has been used
-- Light Configuration
-	- Create or Edit light configurations
-- Controller Configutation
-	- Create or Edit controller configurations
+>Individual Activities:
+>- Light Selecting (which also allows users to select the controller)
+>	- Select from a list of previous light configurations
+>	- Shows number of times each configuration has been used
+>- Light Configuration
+>	- Create or Edit light configurations
+>- Controller Configutation
+>	- Create or Edit controller configurations
+>
+>Navigation Drawer:
+>Main Menu: Allow user to select which activity or fragment to view.
+>Secondary Menu: Allow user to toggle night mode for the app
+>Header: Show the user the name of the controller which is selected, show them the name of the active pattern, and have the background color be the base color of the configuration.
+>
+>Action Bar Menu:
+>- As action, turn off lights
+>- As Action, add new light configuration or controller depending on active fragment
+>- Toggle display count visibility
+>- Allow user to select sort mode on light configurations on page
 
-Navigation Drawer:
-Main Menu: Allow user to select which activity or fragment to view.
-Secondary Menu: Allow user to toggle night mode for the app
-Header: Show the user the name of the controller which is selected, show them the name of the active pattern, and have the background color be the base color of the configuration.
 
-Action Bar Menu:
-- As action, turn off lights
-- As Action, add new light configuration or controller depending on active fragment
-- Toggle display count visibility
-- Allow user to select sort mode on light configurations on page
-```
 This writeup will be included at the bottom of this README file. As your next project week will be implementing a project of your design. This can be a starting point for it.
 
 ### Menu Implementation
