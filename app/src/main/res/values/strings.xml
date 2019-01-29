@@ -3,4 +3,6 @@
     <string name="main_activity_nav_text">Main Activity</string>
     <string name="second_activity_nav_text">Second Activity</string>
     <string name="third_activity_nav_text">Third Activity</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
 </resources>
