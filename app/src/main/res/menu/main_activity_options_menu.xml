@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/nav_first_in_submenu"
-        android:checkable="true"
-        android:icon="@android:drawable/ic_menu_add"
-        android:title="Night Mode Enabled" />
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/night_mode"
+                android:checkable="true"
+                android:title="Night Mode Enabled" />
+        </menu>
+    </item>
 </menu>

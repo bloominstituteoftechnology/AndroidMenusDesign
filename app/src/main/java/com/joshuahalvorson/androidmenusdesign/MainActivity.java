@@ -7,10 +7,39 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_activity_options_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        String message = item.getTitle().toString();
+        switch (item.getItemId()){
+            case R.id.night_mode:
+                if(item.isChecked()){
+                    //change theme
+                    item.setChecked(false);
+                    message += " unchecked";
+                }else{
+                    //change theme
+                    item.setChecked(true);
+                    message += " checked";
+                }
+                Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+                break;
+        }
+        return true;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,5 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+
     }
 }
