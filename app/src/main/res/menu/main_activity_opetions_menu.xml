@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/push_choice"
+        android:title="@string/push_choice_text"
+        android:icon="@android:drawable/ic_media_ff">
+        <menu>
+            <item
+                android:id="@+id/push_benchpress"
+                android:checkable="false"
+                android:title="@string/push_benchpress_text"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/pull_choice"
+        android:title="@string/pull_choice_text"
+        android:icon="@android:drawable/ic_media_rew">
+        <menu>
+            <item
+                android:id="@+id/pull_deadlift"
+                android:checkable="false"
+                android:title="@string/pull_deadlift_text"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/legs_choice"
+        android:title="@string/legs_choice_text"
+        android:icon="@android:drawable/ic_menu_more">
+        <menu>
+            <item
+                android:id="@+id/legs_squat"
+                android:checkable="false"
+                android:title="@string/legs_squat_text"/>
+        </menu>
+    </item>
+
+</menu>
