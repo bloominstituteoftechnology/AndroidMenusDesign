@@ -1,6 +1,6 @@
 # Android Menus Design
 
-For this app, you'll build an empty app with an action bar menu as well as a navigation drawer from scratch.
+For this app, you'll design an app and then implement the navigation drawer and action bar menu for that app.
 
 ## Requirements
 
