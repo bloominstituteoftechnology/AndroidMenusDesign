@@ -53,24 +53,22 @@ There are a few additional features which you can include in order to improve yo
 
 ## My app
 
-    High Level Description: App will display animals that are up for adoption in your area. Filters will let you choose what type of animals you want to see, or in what area. Will also display a list of shelters is your area, and their contact info if available. Will be able to tag an animal you like and contact the shelter later. 
+>    High Level Description: App will display animals that are up for adoption in your area. Filters will let you choose what type of animals you want to see, or in what area. Will also display a list of shelters is your area, and their contact info if available. Will be able to tag an animal you like and contact the shelter later. 
 
-    Individual Activities:
-
-        List of animals
-            View all animals in your area
-            Filter the list to your preferences
-        Details animal activity
-            View all the info about an animal
-        List of Shelters
-            Can view shelters and their contact info
-        Tagged animals
-            View a lits of animals you have tagged in the main list and see all the detials about them
-
-    Navigation Drawer: 
-        Main Menu: Allow user to select which activity or fragment to view. 
-            Secondary Menu: Allow user to toggle night mode for the app 
-
+>Individual Activities:
+>- List of animals
+>	- View all animals in your area
+>	- Filter the list to your preferences
+>- Details animal activity
+>	-  View all the info about an animal
+>- List of Shelters
+>	- Can view shelters and their contact info
+>- Tagged animals
+>	- View a lits of animals you have tagged in the main list and see all the detials about them
+>
+>Navigation Drawer:
+> Main Menu: Allow user to select which activity or fragment to view. 
+>Secondary Menu: Allow user to toggle night mode for the app 
 
 
 Might change but this is what i came up with now.
