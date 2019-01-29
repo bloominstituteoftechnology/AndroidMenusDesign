@@ -51,6 +51,7 @@ There are a few additional features which you can include in order to improve yo
 * Start implementing some of the features from your design. First step, instead of just changing the text, build multiple stock fragments and swap them out with the menu selection. Once that is done, you can start adding implementation to those fragments.
 
 
+## My app
 
     High Level Description: App will display animals that are up for adoption in your area. Filters will let you choose what type of animals you want to see, or in what area. Will also display a list of shelters is your area, and their contact info if available. Will be able to tag an animal you like and contact the shelter later. 
 
