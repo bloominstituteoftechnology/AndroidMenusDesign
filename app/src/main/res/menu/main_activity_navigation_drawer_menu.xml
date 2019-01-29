@@ -4,16 +4,17 @@
         android:checkableBehavior="single">
 
         <item
-            android:id="@+id/activity_one"
+            android:id="@+id/nav_activity_one"
             android:title="@string/main_activity_nav_text"/>
 
         <item
-            android:id="@+id/activity_two"
+            android:id="@+id/nav_activity_two"
             android:title="@string/second_activity_nav_text"/>
 
         <item
-            android:id="@+id/activity_three"
+            android:id="@+id/nav_activity_three"
             android:title="@string/third_activity_nav_text"/>
 
     </group>
+
 </menu>

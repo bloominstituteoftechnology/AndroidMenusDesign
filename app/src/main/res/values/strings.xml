@@ -5,4 +5,5 @@
     <string name="third_activity_nav_text">Third Activity</string>
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
+    <string name="night_mode">Night Mode</string>
 </resources>
