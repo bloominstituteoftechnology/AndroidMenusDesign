@@ -53,8 +53,8 @@ There are a few additional features which you can include in order to improve yo
 
 # App Description
 
-## Overview
-    The app will monitor noise levels of the environment and act on if noise levels get above a threshold.  Target audience would be for parents to easily enforce a time-out for kids.
+### Overview
+   The app will monitor noise levels of the environment and act on if noise levels get above a threshold.  Target audience would be for parents to easily enforce a time-out for kids.
 
 ### Individual Activities
  * Main Activity
