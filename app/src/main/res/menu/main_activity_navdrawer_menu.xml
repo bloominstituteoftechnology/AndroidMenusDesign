@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:checkableBehavior="all">
         <item
             android:id="@+id/first_drawer_item"
@@ -17,8 +18,10 @@
     <item android:title="Theme">
         <menu>
             <item
-                android:id="@+id/nav_first_in_submenu"
+                android:id="@+id/nav_night_mode"
+                app:actionLayout="@layout/layout_switch"
                 android:checkable="true"
+                android:checked="false"
                 android:icon="@android:drawable/ic_menu_add"
                 android:title="Night Mode" />
         </menu>
