@@ -19,7 +19,7 @@ You'll need to write up a simple design for your app with structure example:
 >	- Shows number of times each configuration has been used
 >- Light Configuration
 >	- Create or Edit light configurations
->- Controller Configutation
+>- Controller Configuration
 >	- Create or Edit controller configurations
 >
 >Navigation Drawer:  
@@ -61,21 +61,25 @@ There are a few additional features which you can include in order to improve yo
 
     >Initial screen would allow user to select a premade configuration (either a stock on or one created by user earlier) or create a new configuration.
 
-* NoiseMonitor activity.
+* NoiseMonitor activity
 
     >Selection of an existing configuration would open a NoiseMonitor activity.  App would    listen to the noise levels of the environment and provide visiual and possible audible feedback depending on configuration.  A countdown timer may also be displayed if confguration was set up to use that.
 
-*   NoiseMonitorConfig
+*   NoiseMonitorConfig activity
+
     >Selecting a new configuration would open this activity.  Selecting an existing one via long=press would open the same activity with the configuration pre-populated.  User would be able to set whether a countdown timer would be used.  If used, the length of time would be able to be set as well as options for notification when time is up.  Another option would allow timer to automatically reset when noise levels get too high.
 
-*   Settings Activity
+*   Settings activity
+
     >This activity would allow user set/change global settings.  One setting would be whether phone is pinned to that app and locked to that activity on start of NoiseMonitor Activity.  Notification settings like selection of sound when timer is complete or noise has exceeded tht threshold would be set. Stretch goal would be to add notification to another device either via text/email/messaging app, or through another instance of the app running on the 2nd device.
     
 ### Navigation Drawer
+
 *   Main Menu: Allow user to select whether app is locked a NoiseMonitor Activity.  Settings for it would be in the Setting activity.  Allow user to enter settings activity.  Allow user to select a night mode.
-*   Secondary Menu: Not sure if a secondary menu will be needed.
+*   Secondary Menu:  Allow user to select a night mode.
 *   Header: Display an icon, name of selected configuration.  Use one of the colors in the color resource file as the background.
 
 #### Action Bar Menu
+
 *   As action, add new configuration depending on which activity is in view.
 *   Option to view a log of activity.
