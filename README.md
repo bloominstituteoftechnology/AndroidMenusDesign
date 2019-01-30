@@ -63,7 +63,7 @@ There are a few additional features which you can include in order to improve yo
 
 * NoiseMonitor activity
 
-    >Selection of an existing configuration would open a NoiseMonitor activity.  App would    listen to the noise levels of the environment and provide visiual and possible audible feedback depending on configuration.  A countdown timer may also be displayed if confguration was set up to use that.
+    >Selection of an existing configuration would open a NoiseMonitor activity.  App would    listen to the noise levels of the environment and provide visiual and possible audible feedback depending on configuration.  A countdown timer may also be displayed if configuration was set up to use that.
 
 *   NoiseMonitorConfig activity
 
