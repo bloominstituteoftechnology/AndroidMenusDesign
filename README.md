@@ -49,3 +49,17 @@ There are a few additional features which you can include in order to improve yo
 
 * Polish, polish, polish. Take this time to make your menus and app look awesome. Once the menus are done, build a custom theme and app icons for it as well.
 * Start implementing some of the features from your design. First step, instead of just changing the text, build multiple stock fragments and swap them out with the menu selection. Once that is done, you can start adding implementation to those fragments.
+
+## Student Dashboard App
+
+The Student Dashboard App will allow students to have an all inclusive source to track and organize all of their schooling needs. It will display information about the school, the program they are enrolled in, all programs the school offers, teachers, students in their class/program and information about all current, past, and upcoming assignments.
+
+>Activities
+> - School overview Activity, this will show basic information about the school that they are enrolled in
+> - Programs Activity, this will show all available programs and courses the school offers, highlighting the program the student is currently enrolled in
+> - Teachers Activity, this will show the teachers currently running courses in the school
+> - Students Activity, this will display all students currently enrolled in the same program as the user
+> - Assignments Activity, this will filter on the current assignments (due in next 7 days) all upcoming assignments, and all previous assignments related to the program.
+
+>Navigation Drawer
+> - This will be a quick means of getting around the app, with shortcuts to all major sections
