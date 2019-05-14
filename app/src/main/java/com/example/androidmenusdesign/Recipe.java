@@ -4,7 +4,7 @@ public class Recipe {
     private int id, starRating, costRating, feedPerBatch;
     private String name, directions, ingredientList,category;
 
-    public Recipe(int id,String name, String category, int starRating, int feedPerBatch,int costRating,String ingredientList,String directions) {
+    public Recipe(String name, String category, int starRating, int feedPerBatch,int costRating,String ingredientList,String directions) {
         this.starRating = starRating;
         this.costRating = costRating;
         this.feedPerBatch = feedPerBatch;
@@ -12,7 +12,6 @@ public class Recipe {
         this.directions = directions;
         this.ingredientList = ingredientList;
         this.category = category;
-        this.id = id;
     }
 
     public int getStarRating() {
@@ -69,5 +68,13 @@ public class Recipe {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
