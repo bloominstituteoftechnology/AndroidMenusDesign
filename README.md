@@ -49,3 +49,42 @@ There are a few additional features which you can include in order to improve yo
 
 * Polish, polish, polish. Take this time to make your menus and app look awesome. Once the menus are done, build a custom theme and app icons for it as well.
 * Start implementing some of the features from your design. First step, instead of just changing the text, build multiple stock fragments and swap them out with the menu selection. Once that is done, you can start adding implementation to those fragments.
+
+***
+
+## Basil's App
+
+#### High-Level Description: 
+This is a health app which focuses on keeping the body fit and the mind in an alert but relaxed state. The key ingredient to improvement is self-knowledge which can be acquired through tracking various data points in an app to harness the mobile computing power in order to correlate habitual behaviors with current results and ultimately point out potential changes for your specific desired outcome.
+
+#### Individual Activities: 
+* Sleep time and quality
+* Meal times, quantity, and quality
+* Mood states and energy levels at regular intervals
+* Water consumption amounts
+* Exercise duration, activity, and frequency
+* Restroom waste expelling frequency
+* Bathroom hygiene frequency
+* Meditation or prayer times and length
+
+#### Navigation Drawer: 
+* Header Title: Display the name of the user
+* Header Subtitle: Display the name of the current activity
+* Header Icon: Display the user's profile image
+* Drawer Item 1: Sleep
+* Drawer Item 2: Meals
+* Drawer Item 3: Mood
+* Drawer Item 4: Water
+* Drawer Item 5: Exercise
+* Drawer Item 6: Restroom
+* Drawer Item 7: Hygiene
+* Drawer Item 8: Meditation
+* Secondary Menu: Theme allowing _Night Mode_
+
+#### Action Bar Menu:
+* 12- or 24-hour clock choice
+* Fahrenheit or Celsius
+* Ounces or milileters
+* Reminder to input data
+* Stock image selector
+
