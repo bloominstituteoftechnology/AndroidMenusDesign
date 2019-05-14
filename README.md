@@ -63,3 +63,6 @@ The Student Dashboard App will allow students to have an all inclusive source to
 
 >Navigation Drawer
 > - This will be a quick means of getting around the app, with shortcuts to all major sections
+
+>Options Menu
+> - Log in and Log out functionality shown as icons on the toolbar
