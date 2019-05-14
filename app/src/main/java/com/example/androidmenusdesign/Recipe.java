@@ -2,9 +2,17 @@ package com.example.androidmenusdesign;
 
 public class Recipe {
     private int id, starRating, costRating, feedPerBatch;
-    private String name, directions, ingredientList,category;
+    private String name, directions, ingredientList,category, favorite;
 
-    public Recipe(String name, String category, int starRating, int feedPerBatch,int costRating,String ingredientList,String directions) {
+    public String getFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(String favorite) {
+        this.favorite = favorite;
+    }
+
+    public Recipe(String name, String category, int starRating, int feedPerBatch, int costRating, String ingredientList, String directions) {
         this.starRating = starRating;
         this.costRating = costRating;
         this.feedPerBatch = feedPerBatch;
