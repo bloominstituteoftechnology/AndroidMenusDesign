@@ -24,6 +24,7 @@
         </android.support.design.widget.AppBarLayout>
 
     <android.support.constraint.ConstraintLayout
+        android:background="@drawable/gradient_background"
         android:id="@+id/base_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -43,7 +44,7 @@
     android:fitsSystemWindows="true"
     app:headerLayout="@layout/nav_drawer_header_layout"
     app:menu="@menu/nav_drawer_menu"
-    android:background="@android:color/holo_green_dark"
+    android:background="@android:color/holo_green_light"
     android:id="@+id/nav_view"
     android:layout_gravity="start"
     android:layout_width="wrap_content"
