@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Overview" android:id="@+id/nav_overview"/>
+    <item android:title="Programs">
+        <menu>
+            <item android:title="Current Programs" android:id="@+id/nav_current_programs"/>
+            <item android:title="All programs" android:id="@+id/nav_all_programs"/>
+        </menu>
+    </item>
+    <item android:title="People">
+        <menu>
+    <item android:title="Teachers" android:id="@+id/nav_teachers"/>
+    <item android:title="Students" android:id="@+id/nav_students"/>
+        </menu>
+    </item>
+    <item android:title="Assignments">
+        <menu>
+            <item android:title="Current Assignments" android:id="@+id/nav_current_assignments"/>
+            <item android:title="Previous Assignments" android:id="@+id/nav_previous_assignments"/>
+            <item android:title="Upcoming Assignments" android:id="@+id/nav_upcoming_assignments"/>
+        </menu>
+    </item>
+</menu>
