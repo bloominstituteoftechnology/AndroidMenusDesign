@@ -9,29 +9,33 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        textView = findViewById(R.id.text_view);
 
         Toolbar toolbar = findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("Student Dashboard");
+        toolbar.setTitle(getTitle());
 
-        DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
+        final DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open, R.string.close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = findViewById(R.id.nav_view);
+        final NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 Snackbar.make(findViewById(R.id.drawer_layout), menuItem.getTitle(), Snackbar.LENGTH_SHORT).show();
+                textView.setText(menuItem.getTitle());
                 switch(menuItem.getItemId()){
                     case R.id.nav_overview:
                         break;
@@ -50,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_upcoming_assignments:
                         break;
                 }
+                drawerLayout.closeDrawers();
                 return true;
             }
         });
