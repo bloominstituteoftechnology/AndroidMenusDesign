@@ -84,7 +84,7 @@ This is a health app which focuses on keeping the body fit and the mind in an al
 #### Action Bar Menu:
 * 12- or 24-hour clock choice
 * Fahrenheit or Celsius
-* Ounces or milileters
+* Ounces or milliliters
 * Reminder to input data
 * Stock image selector
 
