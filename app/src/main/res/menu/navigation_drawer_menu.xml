@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sleep"
+            android:title="Sleep" />
+        <item
+            android:id="@+id/nav_meals"
+            android:title="Meals" />
+        <item
+            android:id="@+id/nav_mood"
+            android:title="Mood" />
+        <item
+            android:id="@+id/nav_water"
+            android:title="Water" />
+        <item
+            android:id="@+id/nav_exercise"
+            android:title="Exercise" />
+        <item
+            android:id="@+id/nav_restroom"
+            android:title="Restroom" />
+        <item
+            android:id="@+id/nav_hygiene"
+            android:title="Hygiene" />
+        <item
+            android:id="@+id/nav_meditation"
+            android:title="Meditation" />
+    </group>
+    <item android:title="Customize" >
+        <menu >
+            <item
+                android:id="@+id/nav_night_mode"
+                android:title="Night Mode" />
+        </menu>
+    </item>
+</menu>
