@@ -2,4 +2,5 @@
     <string name="app_name">Student Dashboard</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="nav_bar_header"><u>Student Dashboard</u></string>
 </resources>
