@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/options_menu_12_hour"
+            android:title="12-Hour" />
+        <item
+            android:id="@+id/options_menu_24_hour"
+            android:title="24-Hour" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/options_menu_fahrenheit"
+            android:title="Fahrenheit" />
+        <item
+            android:id="@+id/options_menu_celsius"
+            android:title="Celsius" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/options_menu_ounces"
+            android:title="Ounces" />
+        <item
+            android:id="@+id/options_menu_milliliters"
+            android:title="Milliliters" />
+    </group>
+    <item
+        android:id="@+id/options_menu_reminder"
+        android:title="Reminder" />
+    <item
+        android:id="@+id/options_menu_images_parent"
+        android:title="Images">
+        <menu>
+            <item
+                android:id="@+id/options_menu_images_marvel"
+                android:title="Marvel" />
+            <item
+                android:id="@+id/options_menu_images_dragon_ball"
+                android:title="Dragon Ball" />
+            <item
+                android:id="@+id/options_menu_images_lorem_picsum"
+                android:title="Lorem Picsum" />
+        </menu>
+    </item>
+</menu>
